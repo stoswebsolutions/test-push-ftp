@@ -13,7 +13,7 @@ jobs:
         uses: ./
         with:
           server: ftp.s2swebsolutions.com
-          username: ${{ secrets.ftp_username }}
-          password: ${{ secrets.ftp_password }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftps
           server-dir: public_html/test-push-ftp
